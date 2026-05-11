@@ -325,6 +325,36 @@ input, textarea, select {
   color: var(--bg-deep);
 }
 
+/* Language Switcher */
+.lang-switch {
+  font-size: 0.75rem;
+  font-weight: 600;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  padding: 8px 16px;
+  border: 1px solid var(--glass-border);
+  color: var(--text-secondary);
+  border-radius: 100px;
+  background: var(--glass-bg);
+  backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(8px);
+  cursor: pointer;
+  transition: all 0.3s ease;
+  font-family: var(--font-body);
+}
+
+.lang-switch:hover {
+  border-color: var(--gold);
+  color: var(--gold);
+  background: var(--glass-bg-hover);
+}
+
+.lang-switch--mobile {
+  margin-top: 16px;
+  font-size: 0.9rem;
+  padding: 12px 28px;
+}
+
 /* Mobile toggle */
 .nav__toggle {
   display: none;
@@ -692,10 +722,10 @@ input, textarea, select {
 /* Hero Scroll Indicator */
 .hero__scroll {
   position: absolute;
-  bottom: 120px;
+  bottom: 100px;
   left: 50%;
   transform: translateX(-50%);
-  z-index: 2;
+  z-index: 1;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -704,7 +734,14 @@ input, textarea, select {
   font-size: 0.7rem;
   letter-spacing: 0.2em;
   text-transform: uppercase;
+  pointer-events: none;
   animation: scrollBounce 2s infinite;
+}
+
+@media (max-height: 750px) {
+  .hero__scroll {
+    display: none;
+  }
 }
 
 .hero__scroll-line {

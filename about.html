@@ -12,7 +12,6 @@
 </head>
 <body>
 
-  <!-- Loading Screen -->
   <div class="loader" aria-hidden="true">
     <div class="loader__inner">
       <img src="images/logo.png" alt="" class="loader__logo">
@@ -20,13 +19,9 @@
     </div>
   </div>
 
-  <!-- Particle Background -->
   <canvas id="particles-canvas" aria-hidden="true"></canvas>
-
-  <!-- Cursor Glow -->
   <div class="cursor-glow" aria-hidden="true"></div>
 
-  <!-- Navigation -->
   <header class="nav" role="banner">
     <div class="nav__inner">
       <a href="index.html" class="nav__logo" aria-label="Zametron Home">
@@ -34,94 +29,72 @@
         <span class="nav__logo-tagline">AV &amp; IT Integration</span>
       </a>
       <nav class="nav__links" role="navigation" aria-label="Main navigation">
-        <a href="index.html" class="nav__link">Home</a>
-        <a href="about.html" class="nav__link nav__link--active">About</a>
-        <a href="services.html" class="nav__link">Services</a>
-        <a href="why-us.html" class="nav__link">Why Us</a>
-        <a href="contact.html" class="nav__link nav__cta">Get in Touch</a>
+        <a href="index.html" class="nav__link" data-i18n="nav.home">Home</a>
+        <a href="about.html" class="nav__link nav__link--active" data-i18n="nav.about">About</a>
+        <a href="services.html" class="nav__link" data-i18n="nav.services">Services</a>
+        <a href="why-us.html" class="nav__link" data-i18n="nav.whyUs">Why Us</a>
+        <a href="contact.html" class="nav__link nav__cta" data-i18n="nav.contact">Get in Touch</a>
       </nav>
       <button class="nav__toggle" aria-label="Toggle menu" aria-expanded="false">
         <span></span><span></span><span></span>
       </button>
     </div>
     <nav class="nav__mobile" role="navigation" aria-label="Mobile navigation">
-      <a href="index.html" class="nav__link">Home</a>
-      <a href="about.html" class="nav__link nav__link--active">About</a>
-      <a href="services.html" class="nav__link">Services</a>
-      <a href="why-us.html" class="nav__link">Why Us</a>
-      <a href="contact.html" class="nav__cta">Get in Touch</a>
+      <a href="index.html" class="nav__link" data-i18n="nav.home">Home</a>
+      <a href="about.html" class="nav__link nav__link--active" data-i18n="nav.about">About</a>
+      <a href="services.html" class="nav__link" data-i18n="nav.services">Services</a>
+      <a href="why-us.html" class="nav__link" data-i18n="nav.whyUs">Why Us</a>
+      <a href="contact.html" class="nav__cta" data-i18n="nav.contact">Get in Touch</a>
     </nav>
   </header>
 
-  <!-- Mini Hero -->
   <section class="mini-hero">
-    <div class="mini-hero__bg">
-      <img src="images/about.jpg" alt="Yacht from above at night with warm marina lighting">
-    </div>
+    <div class="mini-hero__bg"><img src="images/about.jpg" alt="Yacht from above at night with warm marina lighting"></div>
     <div class="mini-hero__overlay"></div>
     <div class="container mini-hero__content">
-      <p class="label reveal">Our Story</p>
-      <h1 class="heading-xl mini-hero__title reveal">About <em class="text-accent">Zametron</em></h1>
-      <p class="body-lg mini-hero__sub reveal">Turkey's first corporate AV and IT integration company - born at sea, built for the world.</p>
+      <p class="label reveal" data-i18n="about.story">Our Story</p>
+      <h1 class="heading-xl mini-hero__title reveal" data-i18n="pageAbout.heading">About <em class="text-accent">Zametron</em></h1>
+      <p class="body-lg mini-hero__sub reveal" data-i18n="pageAbout.sub">Turkey's first corporate AV and IT integration company - born at sea, built for the world.</p>
     </div>
   </section>
 
-  <!-- Vision -->
   <section class="section">
     <div class="container">
       <div class="about-split">
-        <div class="about-split__image reveal-left">
-          <img src="images/about.jpg" alt="Luxury yacht illuminated at night in marina">
-        </div>
+        <div class="about-split__image reveal-left"><img src="images/about.jpg" alt="Luxury yacht illuminated at night in marina"></div>
         <div class="reveal-right">
           <p class="label">Vision</p>
           <h2 class="heading-lg">Turkey's First Corporate <em class="text-accent">AV &amp; IT</em> Firm</h2>
           <div class="section-divider"></div>
-          <p class="body-lg mb-3">
-            Zametron exists to fill a gap that should not have existed: there was no corporate-level professional AV and IT solutions provider in Turkey. Individuals were doing this work, but no firm had built it into a proper company with the standards and accountability that demanding clients deserve.
-          </p>
-          <p class="body-md mb-3">
-            We are the first. We carry that distinction with pride and responsibility.
-          </p>
-          <p class="body-md">
-            Our goal is to represent Turkey internationally in the AV and IT sector - delivering work that stands alongside the best firms in the world.
-          </p>
+          <p class="body-lg mb-3">Zametron exists to fill a gap that should not have existed: there was no corporate-level professional AV and IT solutions provider in Turkey. Individuals were doing this work, but no firm had built it into a proper company with the standards and accountability that demanding clients deserve.</p>
+          <p class="body-md mb-3">We are the first. We carry that distinction with pride and responsibility.</p>
+          <p class="body-md">Our goal is to represent Turkey internationally in the AV and IT sector - delivering work that stands alongside the best firms in the world.</p>
         </div>
       </div>
     </div>
   </section>
 
-  <!-- Mission -->
   <section class="section" style="background: rgba(255,255,255,0.01);">
     <div class="container">
       <div class="section__header section__header--center reveal">
         <p class="label">What Drives Us</p>
         <h2 class="heading-lg">Mission &amp; <em class="text-accent">Values</em></h2>
         <div class="section-divider"></div>
-        <p class="body-lg" style="max-width: 780px; margin: 0 auto 3rem;">
-          We exist because there is no corporate-level AV and IT solutions provider in Turkey. We work with the pride and responsibility of being first. Our biggest supporter on this path is our partner Wave AVI, who was the most important reason for founding this company. Zametron delivers reliable and innovative solutions through strong partnerships and engineering experience.
-        </p>
+        <p class="body-lg" style="max-width: 780px; margin: 0 auto 3rem;">We exist because there is no corporate-level AV and IT solutions provider in Turkey. We work with the pride and responsibility of being first. Our biggest supporter on this path is our partner Wave AVI, who was the most important reason for founding this company. Zametron delivers reliable and innovative solutions through strong partnerships and engineering experience.</p>
       </div>
-
       <div class="values-grid">
         <div class="glass value-card reveal stagger-1">
-          <span class="value-card__icon">
-            <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><path d="M12 16v-4"/><path d="M12 8h.01"/></svg>
-          </span>
+          <span class="value-card__icon"><svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><path d="M12 16v-4"/><path d="M12 8h.01"/></svg></span>
           <h3 class="value-card__title">Precision Engineering</h3>
           <p class="value-card__text">Every cable, every connection, every line of programming is executed with the same precision expected of the vessel itself.</p>
         </div>
         <div class="glass value-card reveal stagger-2">
-          <span class="value-card__icon">
-            <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></svg>
-          </span>
+          <span class="value-card__icon"><svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></svg></span>
           <h3 class="value-card__title">Long-Term Partnership</h3>
           <p class="value-card__text">We do not just install systems. We become long-term technology partners invested in the reliability and success of every project.</p>
         </div>
         <div class="glass value-card reveal stagger-3">
-          <span class="value-card__icon">
-            <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="23 6 13.5 15.5 8.5 10.5 1 18"/><polyline points="17 6 23 6 23 12"/></svg>
-          </span>
+          <span class="value-card__icon"><svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="23 6 13.5 15.5 8.5 10.5 1 18"/><polyline points="17 6 23 6 23 12"/></svg></span>
           <h3 class="value-card__title">International Standards</h3>
           <p class="value-card__text">We adopt international quality standards in every project and develop solutions tailored to each client's specific needs. Customer satisfaction is at the center of everything we do.</p>
         </div>
@@ -129,7 +102,6 @@
     </div>
   </section>
 
-  <!-- Founders -->
   <section class="section">
     <div class="container">
       <div class="section__header section__header--center reveal">
@@ -138,20 +110,15 @@
         <div class="section-divider"></div>
         <p class="body-md">Both founders are marine engineers - ship mechanical engineers who spent years aboard mega yachts and commercial vessels. Their combined AV and IT experience accumulated during those years at sea led them to create Turkey's first corporate AV and IT firm.</p>
       </div>
-
       <div class="team-grid">
         <div class="glass team-card reveal stagger-1">
-          <div class="team-card__avatar">
-            <img src="images/founder1.jpg" alt="Founding Partner" class="team-card__avatar-img">
-          </div>
+          <div class="team-card__avatar"><img src="images/founder1.jpg" alt="Founding Partner" class="team-card__avatar-img"></div>
           <h3 class="team-card__name">Founding Partner</h3>
           <p class="team-card__role">CEO &amp; Chief Engineer</p>
           <p class="team-card__text">Marine engineering background with years of hands-on AV and IT experience across mega yachts and commercial vessels. Co-founder of Turkey's first corporate AV and IT integration company.</p>
         </div>
         <div class="glass team-card reveal stagger-2">
-          <div class="team-card__avatar">
-            <img src="images/founder2.jpg" alt="Co-Founder" class="team-card__avatar-img">
-          </div>
+          <div class="team-card__avatar"><img src="images/founder2.jpg" alt="Co-Founder" class="team-card__avatar-img"></div>
           <h3 class="team-card__name">Co-Founder</h3>
           <p class="team-card__role">Technical Director</p>
           <p class="team-card__text">Ship mechanical engineer with deep expertise in system integration and network architecture developed through years of work on mega yachts and luxury maritime projects worldwide.</p>
@@ -160,7 +127,6 @@
     </div>
   </section>
 
-  <!-- International Partners -->
   <section class="section" style="background: rgba(255,255,255,0.01);">
     <div class="container">
       <div class="section__header section__header--center reveal">
@@ -169,19 +135,14 @@
         <div class="section-divider"></div>
         <p class="body-md">Our international partnerships allow Zametron to deliver globally reliable solutions backed by world-class expertise and infrastructure.</p>
       </div>
-
       <div class="values-grid">
         <div class="glass value-card reveal stagger-1">
-          <span class="value-card__icon">
-            <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><line x1="2" y1="12" x2="22" y2="12"/><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/></svg>
-          </span>
+          <span class="value-card__icon"><svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><line x1="2" y1="12" x2="22" y2="12"/><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/></svg></span>
           <h3 class="value-card__title">MTN Satellite Communications</h3>
           <p class="value-card__text">Leading global satellite and hybrid connectivity provider for maritime, yachting, offshore, and corporate sectors. Combines Starlink (LEO), traditional VSAT, and 4G/5G networks with automatic failover for high-performance, uninterrupted internet infrastructure worldwide. Advanced network management platforms optimize bandwidth, maintain connectivity continuity, and guarantee secure data transmission.</p>
         </div>
         <div class="glass value-card reveal stagger-2">
-          <span class="value-card__icon">
-            <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></svg>
-          </span>
+          <span class="value-card__icon"><svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></svg></span>
           <h3 class="value-card__title">Wave AVI</h3>
           <p class="value-card__text">Our founding partner and the most important inspiration behind Zametron. We met Wave AVI while working on mega yachts and their support and guidance made this company possible. Wave AVI is a pioneering firm with worldwide experience in mega yacht and luxury projects, with offices in London, Netherlands, Phuket, and Singapore. Through this partnership, Zametron delivers globally reliable and innovative AV and IT solutions.</p>
         </div>
@@ -189,59 +150,53 @@
     </div>
   </section>
 
-  <!-- Quality Guarantee -->
   <section class="section">
     <div class="container">
       <div class="glass cta-banner reveal-scale" style="text-align: left; padding: 4rem;">
         <p class="label">Quality Guarantee</p>
         <h2 class="heading-lg" style="margin-bottom: 1.5rem;">Our <em class="text-accent">Commitment</em></h2>
-        <p class="body-lg" style="max-width: 700px;">
-          At Zametron, we adopt international quality standards in every project, developing solutions tailored to our customers' needs. Our goal is not just to install systems, but to provide long-term reliability and uninterrupted support. Customer satisfaction is at the center of everything we do.
-        </p>
+        <p class="body-lg" style="max-width: 700px;">At Zametron, we adopt international quality standards in every project, developing solutions tailored to our customers' needs. Our goal is not just to install systems, but to provide long-term reliability and uninterrupted support. Customer satisfaction is at the center of everything we do.</p>
       </div>
     </div>
   </section>
 
-  <!-- CTA Banner -->
   <section class="section">
     <div class="container">
       <div class="glass cta-banner reveal-scale">
         <h2 class="heading-lg cta-banner__title">Work With <em class="text-accent">Us</em></h2>
         <p class="body-md cta-banner__sub">Whether you are building a new yacht or upgrading an existing vessel, our team is ready to help.</p>
         <a href="contact.html" class="btn btn--gold">
-          Start a Conversation
-          <span class="btn__arrow" aria-hidden="true">&rarr;</span>
+          Start a Conversation <span class="btn__arrow" aria-hidden="true">&rarr;</span>
         </a>
       </div>
     </div>
   </section>
 
-  <!-- Footer -->
   <footer class="footer">
     <div class="container">
       <div class="footer__grid">
         <div>
           <img src="images/logo.png" alt="Zametron logo" class="footer__brand-logo">
-          <p class="footer__brand-text">Turkey's first corporate AV &amp; IT integration company. Premium technology solutions for mega yachts, luxury villas, and special projects.</p>
+          <p class="footer__brand-text" data-i18n="footer.brandText">Turkey's first corporate AV &amp; IT integration company. Premium technology solutions for mega yachts, luxury villas, and special projects.</p>
         </div>
         <div>
-          <h4 class="footer__heading">Navigation</h4>
-          <a href="index.html" class="footer__link">Home</a>
-          <a href="about.html" class="footer__link">About</a>
-          <a href="services.html" class="footer__link">Services</a>
-          <a href="why-us.html" class="footer__link">Why Us</a>
-          <a href="contact.html" class="footer__link">Contact</a>
+          <h4 class="footer__heading" data-i18n="footer.nav">Navigation</h4>
+          <a href="index.html" class="footer__link" data-i18n="nav.home">Home</a>
+          <a href="about.html" class="footer__link" data-i18n="nav.about">About</a>
+          <a href="services.html" class="footer__link" data-i18n="nav.services">Services</a>
+          <a href="why-us.html" class="footer__link" data-i18n="nav.whyUs">Why Us</a>
+          <a href="contact.html" class="footer__link" data-i18n="nav.contact">Contact</a>
         </div>
         <div>
-          <h4 class="footer__heading">Services</h4>
-          <a href="services.html" class="footer__link">Audio &amp; Video</a>
-          <a href="services.html" class="footer__link">IT Infrastructure</a>
-          <a href="services.html" class="footer__link">Satellite &amp; Internet</a>
-          <a href="services.html" class="footer__link">Security Systems</a>
-          <a href="services.html" class="footer__link">Smart Automation</a>
+          <h4 class="footer__heading" data-i18n="footer.services">Services</h4>
+          <a href="services.html" class="footer__link" data-i18n="srv.av.title">Audio &amp; Video</a>
+          <a href="services.html" class="footer__link" data-i18n="srv.it.title">IT Infrastructure</a>
+          <a href="services.html" class="footer__link" data-i18n="srv.sat.title">Satellite &amp; Internet</a>
+          <a href="services.html" class="footer__link" data-i18n="srv.sec.title">Security Systems</a>
+          <a href="services.html" class="footer__link" data-i18n="srv.auto.title">Smart Automation</a>
         </div>
         <div>
-          <h4 class="footer__heading">Contact</h4>
+          <h4 class="footer__heading" data-i18n="footer.contact">Contact</h4>
           <div class="footer__contact-item">
             <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
             <span>Serifali Mah. Kutup Sk. No: 40 Umraniye/Istanbul</span>
@@ -257,15 +212,12 @@
         </div>
       </div>
       <div class="footer__bottom">
-        <p class="footer__copy">2024 Zametron Muhendislik ve Teknoloji Ltd. Sti. All rights reserved.</p>
-        <div class="footer__legal">
-          <a href="#">Privacy Policy</a>
-          <a href="#">Terms of Service</a>
-        </div>
+        <p data-i18n="footer.copyright">&copy; 2024 Zametron Muhendislik ve Teknoloji Ltd. Sti. All rights reserved.</p>
       </div>
     </div>
   </footer>
 
+  <script src="i18n.js"></script>
   <script src="main.js"></script>
 </body>
 </html>
