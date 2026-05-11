@@ -56,7 +56,7 @@
     'srv.light.title': { en: 'Lighting & DMX', tr: 'Aydınlatma & DMX' },
     'srv.light.text': { en: 'Architectural lighting design, DMX control, LED integration, and mood-setting scene programming.', tr: 'Mimari aydınlatma tasarımı, DMX kontrolü, LED entegrasyonu ve atmosfer yaratan sahne programlama.' },
     'srv.auto.title': { en: 'Smart Automation', tr: 'Akıllı Otomasyon' },
-    'srv.auto.text': { en: 'Crestron, Savant, and Control4 programming for total environment control from a single interface.', tr: 'Tek bir arayüzden tam ortam kontrolü için Crestron, Savant ve Control4 programlama.' },
+    'srv.auto.text': { en: 'Professional automation programming for total environment control from a single interface - lighting, climate, blinds, and entertainment at your fingertips.', tr: 'Tek bir arayüzden tam ortam kontrolü için profesyonel otomasyon programlama - aydınlatma, iklim, panjurlar ve eğlence parmaklarınızın ucunda.' },
 
     /* ---- Why Us ---- */
     'why.label': { en: 'Why Zametron', tr: 'Neden Zametron' },
@@ -69,12 +69,12 @@
     'diff.2.text': { en: 'With offices across key maritime hubs and partnerships worldwide, we deliver consistent quality wherever your vessel is located.', tr: 'Önemli denizcilik merkezlerindeki ofislerimiz ve dünya çapındaki ortaklıklarımızla, geminiz nerede olursa olsun tutarlı kalite sunuyoruz.' },
     'diff.3.title': { en: '24/7 Technical Support', tr: '7/24 Teknik Destek' },
     'diff.3.text': { en: 'Round-the-clock remote and on-site support ensures your systems perform flawlessly at all times, anywhere in the world.', tr: 'Kesintisiz uzaktan ve yerinde destek, sistemlerinizin dünyanın her yerinde, her zaman kusursuz çalışmasını sağlar.' },
-    'diff.4.title': { en: 'Certified Partnerships', tr: 'Sertifikalı Ortaklıklar' },
-    'diff.4.text': { en: 'Authorized dealer and integrator for the world\'s leading technology brands including Crestron, Savant, Cisco, and Lutron.', tr: 'Crestron, Savant, Cisco ve Lutron dahil dünyanın önde gelen teknoloji markaları için yetkili satıcı ve entegratör.' },
+    'diff.4.title': { en: 'Powered by Wave AVI', tr: 'Wave AVI Gücüyle' },
+    'diff.4.text': { en: 'Through our founding partnership with Wave AVI - a pioneering AV integration firm with offices in London, Netherlands, Phuket, and Singapore - we deliver globally certified solutions backed by decades of expertise.', tr: 'Londra, Hollanda, Phuket ve Singapur\'da ofisleri bulunan öncü AV entegrasyon firması Wave AVI ile kurucu ortaklığımız sayesinde, onlarca yıllık uzmanlıkla desteklenen küresel sertifikalı çözümler sunuyoruz.' },
 
     /* ---- Partners ---- */
-    'partners.label': { en: 'Technology Partners', tr: 'Teknoloji Ortakları' },
-    'partners.heading': { en: "Trusted by the Industry's Best Brands", tr: 'Sektörün En İyi Markaları Tarafından Güveniliyor' },
+    'partners.label': { en: 'Our Partners', tr: 'Ortaklarımız' },
+    'partners.heading': { en: 'Trusted <em class="text-accent">Partnerships</em>', tr: 'Güvenilir <em class="text-accent">Ortaklıklar</em>' },
 
     /* ---- CTA ---- */
     'cta.heading': { en: 'Ready to Start Your <em class="text-accent">Project</em>?', tr: '<em class="text-accent">Projenize</em> Başlamaya Hazır mısınız?' },

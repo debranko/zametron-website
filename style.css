@@ -1269,6 +1269,99 @@ input, textarea, select {
 }
 
 /* =========================================================
+   Partner Cards
+   ========================================================= */
+
+.partner-cards {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 24px;
+}
+
+.partner-card {
+  padding: 40px 28px;
+  text-align: center;
+  transition: all 0.4s var(--ease-out-expo);
+}
+
+.partner-card:hover {
+  transform: translateY(-4px);
+  border-color: var(--glass-border-hover);
+}
+
+.partner-card__logo {
+  height: 48px;
+  width: auto;
+  margin: 0 auto 16px;
+  object-fit: contain;
+}
+
+.partner-card__logo--obedio {
+  height: 40px;
+  filter: brightness(0) invert(1);
+}
+
+.partner-card__logo-text {
+  font-family: var(--font-display);
+  font-size: 2rem;
+  font-weight: 700;
+  color: var(--gold);
+  margin-bottom: 8px;
+  letter-spacing: 0.05em;
+}
+
+.partner-card__name {
+  font-family: var(--font-display);
+  font-size: 1.1rem;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+.partner-card__text {
+  font-size: 0.85rem;
+  color: var(--text-secondary);
+  line-height: 1.6;
+  margin-bottom: 18px;
+}
+
+.partner-card__links {
+  display: flex;
+  gap: 12px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.partner-card__link {
+  font-size: 0.8rem;
+  font-weight: 500;
+  color: var(--teal);
+  padding: 6px 16px;
+  border: 1px solid var(--glass-border);
+  border-radius: 100px;
+  transition: all 0.3s ease;
+}
+
+.partner-card__link:hover {
+  border-color: var(--teal);
+  background: var(--teal-dim);
+}
+
+.partner-card__link--li {
+  color: var(--gold);
+}
+
+.partner-card__link--li:hover {
+  border-color: var(--gold);
+  background: var(--gold-dim);
+}
+
+@media (max-width: 768px) {
+  .partner-cards {
+    grid-template-columns: 1fr;
+  }
+}
+
+/* =========================================================
    Timeline
    ========================================================= */
 
@@ -2034,6 +2127,12 @@ input, textarea, select {
   gap: 24px;
 }
 
+.team-grid--two {
+  grid-template-columns: repeat(2, 1fr);
+  max-width: 640px;
+  margin: 0 auto;
+}
+
 .team-card {
   text-align: center;
   padding: 40px 24px;
@@ -2089,6 +2188,25 @@ input, textarea, select {
   font-size: 0.85rem;
   color: var(--text-secondary);
   line-height: 1.6;
+  margin-bottom: 16px;
+}
+
+.team-card__linkedin {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  font-size: 0.8rem;
+  font-weight: 500;
+  color: var(--gold);
+  padding: 8px 16px;
+  border: 1px solid var(--glass-border);
+  border-radius: 100px;
+  transition: all 0.3s ease;
+}
+
+.team-card__linkedin:hover {
+  border-color: var(--gold);
+  background: var(--gold-dim);
 }
 
 @media (max-width: 768px) {
