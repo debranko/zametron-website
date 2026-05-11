@@ -1187,6 +1187,88 @@ input, textarea, select {
 }
 
 /* =========================================================
+   Brochure Section
+   ========================================================= */
+
+.brochure-grid {
+  display: flex;
+  justify-content: center;
+  gap: 24px;
+}
+
+.brochure-card {
+  padding: 40px 32px;
+  text-align: center;
+  max-width: 560px;
+  width: 100%;
+  transition: all 0.4s var(--ease-out-expo);
+}
+
+.brochure-card:hover {
+  transform: translateY(-4px);
+  border-color: var(--glass-border-hover);
+}
+
+.brochure-card__icon {
+  width: 56px;
+  height: 56px;
+  border-radius: var(--radius-sm);
+  background: var(--teal-dim);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto 20px;
+  color: var(--teal);
+}
+
+.brochure-card__icon svg {
+  width: 28px;
+  height: 28px;
+}
+
+.brochure-card__title {
+  font-family: var(--font-display);
+  font-size: 1.2rem;
+  font-weight: 600;
+  margin-bottom: 12px;
+}
+
+.brochure-card__text {
+  font-size: 0.9rem;
+  color: var(--text-secondary);
+  line-height: 1.6;
+  max-width: 440px;
+  margin: 0 auto 24px;
+}
+
+.brochure-card__langs {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  justify-content: center;
+}
+
+.brochure-card__langs .btn {
+  padding: 12px 24px;
+  font-size: 0.8rem;
+  gap: 8px;
+}
+
+@media (max-width: 480px) {
+  .brochure-card {
+    padding: 32px 20px;
+  }
+  .brochure-card__langs {
+    flex-direction: column;
+    align-items: center;
+  }
+  .brochure-card__langs .btn {
+    width: 100%;
+    justify-content: center;
+  }
+}
+
+/* =========================================================
    Timeline
    ========================================================= */
 
