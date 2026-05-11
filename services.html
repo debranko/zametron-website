@@ -1,0 +1,345 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Zametron Services - Audio/Video, IT Infrastructure, Satellite, Security, Lighting, and Smart Automation for mega yachts and luxury projects.">
+  <title>Services - Zametron AV &amp; IT Integration</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;1,400;1,500;1,600;1,700&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+  <!-- Loading Screen -->
+  <div class="loader" aria-hidden="true">
+    <div class="loader__inner">
+      <img src="images/logo.png" alt="" class="loader__logo">
+      <div class="loader__bar"><div class="loader__bar-fill"></div></div>
+    </div>
+  </div>
+
+  <!-- Particle Background -->
+  <canvas id="particles-canvas" aria-hidden="true"></canvas>
+
+  <!-- Cursor Glow -->
+  <div class="cursor-glow" aria-hidden="true"></div>
+
+  <!-- Navigation -->
+  <header class="nav" role="banner">
+    <div class="nav__inner">
+      <a href="index.html" class="nav__logo" aria-label="Zametron Home">
+        <img src="images/logo.png" alt="Zametron logo" class="nav__logo-img">
+        <span class="nav__logo-tagline">AV &amp; IT Integration</span>
+      </a>
+      <nav class="nav__links" role="navigation" aria-label="Main navigation">
+        <a href="index.html" class="nav__link">Home</a>
+        <a href="about.html" class="nav__link">About</a>
+        <a href="services.html" class="nav__link nav__link--active">Services</a>
+        <a href="why-us.html" class="nav__link">Why Us</a>
+        <a href="contact.html" class="nav__link nav__cta">Get in Touch</a>
+      </nav>
+      <button class="nav__toggle" aria-label="Toggle menu" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+    <nav class="nav__mobile" role="navigation" aria-label="Mobile navigation">
+      <a href="index.html" class="nav__link">Home</a>
+      <a href="about.html" class="nav__link">About</a>
+      <a href="services.html" class="nav__link nav__link--active">Services</a>
+      <a href="why-us.html" class="nav__link">Why Us</a>
+      <a href="contact.html" class="nav__cta">Get in Touch</a>
+    </nav>
+  </header>
+
+  <!-- Mini Hero -->
+  <section class="mini-hero">
+    <div class="mini-hero__bg">
+      <img src="images/hero.jpg" alt="Mega yacht exterior with blue sky reflections">
+    </div>
+    <div class="mini-hero__overlay"></div>
+    <div class="container mini-hero__content">
+      <p class="label reveal">What We Do</p>
+      <h1 class="heading-xl mini-hero__title reveal">Our <em class="text-accent">Services</em></h1>
+      <p class="body-lg mini-hero__sub reveal">End-to-end AV, IT, and automation solutions engineered for the most demanding environments on earth - and at sea.</p>
+    </div>
+  </section>
+
+  <!-- Service 1: Audio & Video -->
+  <section class="section">
+    <div class="container">
+      <div class="service-detail">
+        <div class="service-detail__image reveal-left">
+          <img src="images/icon2.png" alt="Speaker and monitor with dark AV aesthetic">
+        </div>
+        <div class="service-detail__content reveal-right">
+          <p class="label">01</p>
+          <h2 class="heading-md">Audio &amp; <em class="text-accent">Video</em></h2>
+          <p class="body-md">From private cinema rooms with Dolby Atmos to distributed multi-zone audio across every deck, we design and install broadcast-grade AV systems that transform the on-board experience.</p>
+          <div class="feature-list">
+            <div class="feature-list__item">Private cinema and media rooms</div>
+            <div class="feature-list__item">Multi-zone distributed audio</div>
+            <div class="feature-list__item">4K/8K video distribution</div>
+            <div class="feature-list__item">Outdoor marine-grade speaker systems</div>
+            <div class="feature-list__item">Video conferencing and presentation systems</div>
+          </div>
+          <div class="brand-pills">
+            <span class="brand-pill">Bose</span>
+            <span class="brand-pill">Sonance</span>
+            <span class="brand-pill">Samsung</span>
+            <span class="brand-pill">Sony</span>
+            <span class="brand-pill">JBL</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Service 2: IT Infrastructure -->
+  <section class="section" style="background: rgba(255,255,255,0.01);">
+    <div class="container">
+      <div class="service-detail service-detail--reverse">
+        <div class="service-detail__image reveal-right">
+          <img src="images/icon3.png" alt="Network switch and server rack with blue cables">
+        </div>
+        <div class="service-detail__content reveal-left">
+          <p class="label">02</p>
+          <h2 class="heading-md">IT <em class="text-accent">Infrastructure</em></h2>
+          <p class="body-md">Enterprise-grade networking tailored for the maritime environment. We build resilient IT backbones that keep crew and guests connected while maintaining the highest security standards.</p>
+          <div class="feature-list">
+            <div class="feature-list__item">Structured cabling and fiber optic networks</div>
+            <div class="feature-list__item">Enterprise Wi-Fi with seamless roaming</div>
+            <div class="feature-list__item">Server room design and installation</div>
+            <div class="feature-list__item">VoIP and unified communications</div>
+            <div class="feature-list__item">Network security and firewall management</div>
+          </div>
+          <div class="brand-pills">
+            <span class="brand-pill">Cisco</span>
+            <span class="brand-pill">Ruckus</span>
+            <span class="brand-pill">Ubiquiti</span>
+            <span class="brand-pill">HP</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Service 3: Satellite & Internet -->
+  <section class="section">
+    <div class="container">
+      <div class="service-detail">
+        <div class="service-detail__image reveal-left">
+          <img src="images/flag.jpg" alt="Ocean waves from above in deep teal">
+        </div>
+        <div class="service-detail__content reveal-right">
+          <p class="label">03</p>
+          <h2 class="heading-md">Satellite &amp; <em class="text-accent">Internet</em></h2>
+          <p class="body-md">Stay connected anywhere in the world with our hybrid satellite and internet solutions. From VSAT to Starlink, we design connectivity systems that deliver reliable bandwidth at sea.</p>
+          <div class="feature-list">
+            <div class="feature-list__item">VSAT systems design and installation</div>
+            <div class="feature-list__item">Starlink maritime integration</div>
+            <div class="feature-list__item">4G/5G cellular bonding</div>
+            <div class="feature-list__item">Bandwidth management and optimization</div>
+            <div class="feature-list__item">Satellite TV and content delivery</div>
+          </div>
+          <div class="brand-pills">
+            <span class="brand-pill">Starlink</span>
+            <span class="brand-pill">KVH</span>
+            <span class="brand-pill">Intellian</span>
+            <span class="brand-pill">Peplink</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Service 4: Security -->
+  <section class="section" style="background: rgba(255,255,255,0.01);">
+    <div class="container">
+      <div class="service-detail service-detail--reverse">
+        <div class="service-detail__image reveal-right">
+          <img src="images/icon1.png" alt="Hand touching control panel with dark theme interface">
+        </div>
+        <div class="service-detail__content reveal-left">
+          <p class="label">04</p>
+          <h2 class="heading-md">Security <em class="text-accent">Systems</em></h2>
+          <p class="body-md">Comprehensive security solutions that protect guests, crew, and assets. Our integrated platforms combine surveillance, access control, and threat detection into a unified management interface.</p>
+          <div class="feature-list">
+            <div class="feature-list__item">CCTV with AI-powered analytics</div>
+            <div class="feature-list__item">Access control and biometric systems</div>
+            <div class="feature-list__item">Intrusion detection and alarm systems</div>
+            <div class="feature-list__item">Centralized security management</div>
+            <div class="feature-list__item">Emergency communication systems</div>
+          </div>
+          <div class="brand-pills">
+            <span class="brand-pill">Axis</span>
+            <span class="brand-pill">Hikvision</span>
+            <span class="brand-pill">Genetec</span>
+            <span class="brand-pill">Paxton</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Service 5: Lighting & DMX -->
+  <section class="section">
+    <div class="container">
+      <div class="service-detail">
+        <div class="service-detail__image reveal-left">
+          <img src="images/about.jpg" alt="Yacht illuminated with warm architectural lighting at night">
+        </div>
+        <div class="service-detail__content reveal-right">
+          <p class="label">05</p>
+          <h2 class="heading-md">Lighting &amp; <em class="text-accent">DMX</em></h2>
+          <p class="body-md">Transform spaces with intelligent lighting design. From subtle architectural accents to dramatic exterior illumination, we program scenes that set the perfect mood for every moment.</p>
+          <div class="feature-list">
+            <div class="feature-list__item">Architectural LED lighting design</div>
+            <div class="feature-list__item">DMX and DALI control systems</div>
+            <div class="feature-list__item">Circadian and tunable white lighting</div>
+            <div class="feature-list__item">Exterior and underwater lighting</div>
+            <div class="feature-list__item">Scene programming and scheduling</div>
+          </div>
+          <div class="brand-pills">
+            <span class="brand-pill">Lutron</span>
+            <span class="brand-pill">Philips</span>
+            <span class="brand-pill">Lumishore</span>
+            <span class="brand-pill">ETC</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Service 6: Smart Automation -->
+  <section class="section" style="background: rgba(255,255,255,0.01);">
+    <div class="container">
+      <div class="service-detail service-detail--reverse">
+        <div class="service-detail__image reveal-right">
+          <img src="images/icon1.png" alt="Smart control interface on tablet device">
+        </div>
+        <div class="service-detail__content reveal-left">
+          <p class="label">06</p>
+          <h2 class="heading-md">Smart <em class="text-accent">Automation</em></h2>
+          <p class="body-md">Total environment control from a single, intuitive interface. We program and integrate the world's leading automation platforms to give owners and guests effortless command of every system on board.</p>
+          <div class="feature-list">
+            <div class="feature-list__item">Crestron, Savant, and Control4 programming</div>
+            <div class="feature-list__item">Custom touch panel and app interfaces</div>
+            <div class="feature-list__item">Climate and HVAC integration</div>
+            <div class="feature-list__item">Shade and curtain automation</div>
+            <div class="feature-list__item">Voice control and AI assistant integration</div>
+          </div>
+          <div class="brand-pills">
+            <span class="brand-pill">Crestron</span>
+            <span class="brand-pill">Savant</span>
+            <span class="brand-pill">Control4</span>
+            <span class="brand-pill">KNX</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Process -->
+  <section class="section">
+    <div class="container">
+      <div class="section__header section__header--center reveal">
+        <p class="label">How We Work</p>
+        <h2 class="heading-lg">Our <em class="text-accent">Process</em></h2>
+        <div class="section-divider"></div>
+        <p class="body-md">A proven four-phase methodology that ensures quality from concept to commissioning.</p>
+      </div>
+
+      <div class="process-grid">
+        <div class="glass process-card reveal stagger-1">
+          <div class="process-card__step">01</div>
+          <h3 class="process-card__title">Design</h3>
+          <p class="process-card__text">Collaborative design workshops with architects, builders, and owners to define the technology vision and create detailed system specifications.</p>
+        </div>
+        <div class="glass process-card reveal stagger-2">
+          <div class="process-card__step">02</div>
+          <h3 class="process-card__title">Install</h3>
+          <p class="process-card__text">Precision installation by our certified marine technicians, coordinated with the build schedule to minimize disruption and maximize quality.</p>
+        </div>
+        <div class="glass process-card reveal stagger-3">
+          <div class="process-card__step">03</div>
+          <h3 class="process-card__title">Integrate</h3>
+          <p class="process-card__text">System programming, commissioning, and testing to ensure every component works together seamlessly as one unified ecosystem.</p>
+        </div>
+        <div class="glass process-card reveal stagger-4">
+          <div class="process-card__step">04</div>
+          <h3 class="process-card__title">Support</h3>
+          <p class="process-card__text">24/7 remote monitoring and on-site support worldwide. Proactive maintenance, software updates, and rapid response when you need it.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA Banner -->
+  <section class="section">
+    <div class="container">
+      <div class="glass cta-banner reveal-scale">
+        <h2 class="heading-lg cta-banner__title">Discuss Your <em class="text-accent">Project</em></h2>
+        <p class="body-md cta-banner__sub">Every project starts with a conversation. Tell us about your vessel or property and we will design the perfect technology solution.</p>
+        <a href="contact.html" class="btn btn--gold">
+          Get in Touch
+          <span class="btn__arrow" aria-hidden="true">&rarr;</span>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer__grid">
+        <div>
+          <img src="images/logo.png" alt="Zametron logo" class="footer__brand-logo">
+          <p class="footer__brand-text">Turkey's first corporate AV &amp; IT integration company. Premium technology solutions for mega yachts, luxury villas, and special projects.</p>
+        </div>
+        <div>
+          <h4 class="footer__heading">Navigation</h4>
+          <a href="index.html" class="footer__link">Home</a>
+          <a href="about.html" class="footer__link">About</a>
+          <a href="services.html" class="footer__link">Services</a>
+          <a href="why-us.html" class="footer__link">Why Us</a>
+          <a href="contact.html" class="footer__link">Contact</a>
+        </div>
+        <div>
+          <h4 class="footer__heading">Services</h4>
+          <a href="services.html" class="footer__link">Audio &amp; Video</a>
+          <a href="services.html" class="footer__link">IT Infrastructure</a>
+          <a href="services.html" class="footer__link">Satellite &amp; Internet</a>
+          <a href="services.html" class="footer__link">Security Systems</a>
+          <a href="services.html" class="footer__link">Smart Automation</a>
+        </div>
+        <div>
+          <h4 class="footer__heading">Contact</h4>
+          <div class="footer__contact-item">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
+            <span>Serifali Mah. Kutup Sk. No: 40 Umraniye/Istanbul</span>
+          </div>
+          <div class="footer__contact-item">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+            <a href="tel:+908503070516">+90 850 307 05 16</a>
+          </div>
+          <div class="footer__contact-item">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+            <a href="mailto:info@zametron.com">info@zametron.com</a>
+          </div>
+        </div>
+      </div>
+      <div class="footer__bottom">
+        <p class="footer__copy">2024 Zametron Muhendislik ve Teknoloji Ltd. Sti. All rights reserved.</p>
+        <div class="footer__legal">
+          <a href="#">Privacy Policy</a>
+          <a href="#">Terms of Service</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="main.js"></script>
+</body>
+</html>
