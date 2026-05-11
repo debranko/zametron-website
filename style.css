@@ -67,6 +67,8 @@ html {
   scroll-behavior: smooth;
   -webkit-text-size-adjust: 100%;
   font-size: 16px;
+  overflow-x: hidden;
+  width: 100%;
 }
 
 body {
@@ -75,6 +77,8 @@ body {
   color: var(--text-primary);
   line-height: 1.7;
   overflow-x: hidden;
+  width: 100%;
+  max-width: 100vw;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
@@ -197,6 +201,8 @@ input, textarea, select {
   transform: translate(-50%, -50%);
   transition: opacity 0.3s ease;
   will-change: left, top;
+  contain: layout style paint;
+  overflow: hidden;
 }
 
 /* =========================================================
@@ -244,8 +250,9 @@ input, textarea, select {
 .nav__logo {
   display: flex;
   align-items: center;
-  gap: 12px;
+  gap: 14px;
   z-index: 1001;
+  flex-shrink: 0;
 }
 
 .nav__logo-img {
@@ -639,6 +646,7 @@ input, textarea, select {
   flex-direction: column;
   justify-content: center;
   overflow: hidden;
+  padding-bottom: 110px;
 }
 
 .hero__bg {
@@ -688,10 +696,16 @@ input, textarea, select {
     width: 100%;
     justify-content: center;
   }
+  .hero {
+    padding-bottom: 100px;
+  }
 }
 @media (max-width: 400px) {
   .hero__content {
     padding-top: 80px;
+  }
+  .hero {
+    padding-bottom: 90px;
   }
 }
 
@@ -748,7 +762,7 @@ input, textarea, select {
 /* Hero Scroll Indicator */
 .hero__scroll {
   position: absolute;
-  bottom: 100px;
+  bottom: 120px;
   left: 50%;
   transform: translateX(-50%);
   z-index: 1;
@@ -764,7 +778,7 @@ input, textarea, select {
   animation: scrollBounce 2s infinite;
 }
 
-@media (max-height: 750px) {
+@media (max-height: 800px) {
   .hero__scroll {
     display: none;
   }
