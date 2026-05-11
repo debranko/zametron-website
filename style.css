@@ -274,8 +274,8 @@ input, textarea, select {
 }
 
 .nav__logo-tagline {
-  font-size: 0.7rem;
-  letter-spacing: 0.15em;
+  font-size: 0.65rem;
+  letter-spacing: 0.12em;
   text-transform: uppercase;
   color: var(--text-muted);
   font-weight: 500;
@@ -284,18 +284,19 @@ input, textarea, select {
 .nav__links {
   display: flex;
   align-items: center;
-  gap: 36px;
+  gap: 24px;
 }
 
 .nav__link {
-  font-size: 0.85rem;
+  font-size: 0.75rem;
   font-weight: 500;
-  letter-spacing: 0.06em;
+  letter-spacing: 0.04em;
   text-transform: uppercase;
   color: var(--text-secondary);
   position: relative;
   padding: 4px 0;
   transition: color 0.3s ease;
+  white-space: nowrap;
 }
 
 .nav__link::after {
@@ -324,15 +325,16 @@ input, textarea, select {
 }
 
 .nav__cta {
-  font-size: 0.8rem;
+  font-size: 0.72rem;
   font-weight: 600;
-  letter-spacing: 0.08em;
+  letter-spacing: 0.06em;
   text-transform: uppercase;
-  padding: 10px 24px;
+  padding: 8px 18px;
   border: 1px solid var(--gold);
   color: var(--gold);
   border-radius: 100px;
   transition: all 0.3s ease;
+  white-space: nowrap;
 }
 
 .nav__cta:hover {
@@ -439,7 +441,7 @@ input, textarea, select {
   padding: 14px 32px;
 }
 
-@media (max-width: 900px) {
+@media (max-width: 1024px) {
   .nav__links {
     display: none;
   }
