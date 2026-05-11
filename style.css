@@ -1951,6 +1951,19 @@ input, textarea, select {
   gap: 16px;
 }
 
+.footer__linkedin {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  font-size: 0.8rem;
+  color: var(--text-muted);
+  transition: color 0.3s ease;
+}
+
+.footer__linkedin:hover {
+  color: var(--gold);
+}
+
 .footer__copy {
   font-size: 0.8rem;
   color: var(--text-muted);
