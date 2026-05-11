@@ -14,6 +14,8 @@
     'nav.about': { en: 'About', tr: 'Hakkımızda' },
     'nav.services': { en: 'Services', tr: 'Hizmetler' },
     'nav.whyUs': { en: 'Why Us', tr: 'Neden Biz' },
+    'nav.partners': { en: 'Partners', tr: 'Ortaklar' },
+    'nav.brochures': { en: 'Brochures', tr: 'Broşürler' },
     'nav.contact': { en: 'Get in Touch', tr: 'İletişime Geç' },
 
     /* ---- Hero ---- */
@@ -140,6 +142,32 @@
     'brochures.heading': { en: 'Download Our <em class="text-accent">Brochures</em>', tr: '<em class="text-accent">Broşürlerimizi</em> İndirin' },
     'brochures.sub': { en: 'Learn more about our capabilities, past projects, and technology partnerships.', tr: 'Yeteneklerimiz, geçmiş projelerimiz ve teknoloji ortaklıklarımız hakkında daha fazla bilgi edinin.' },
     'brochures.download': { en: 'Download PDF', tr: 'PDF İndir' },
+
+    /* ---- Partners Page ---- */
+    'pagePartners.heading': { en: 'Global <em class="text-accent">Partnerships</em>', tr: 'Küresel <em class="text-accent">Ortaklıklar</em>' },
+    'pagePartners.sub': { en: 'The relationships that power our engineering. We partner with world-class organizations to deliver the most reliable AV and IT solutions at sea.', tr: 'Mühendisliğimize güç veren ilişkiler. Denizde en güvenilir AV ve BT çözümlerini sunmak için dünya standartlarında kuruluşlarla ortaklık kuruyoruz.' },
+    'pagePartners.philosophyLabel': { en: 'Partnership Philosophy', tr: 'Ortaklık Felsefemiz' },
+    'pagePartners.philosophyHeading': { en: 'Stronger <em class="text-accent">Together</em>', tr: 'Birlikte Daha <em class="text-accent">Güçlü</em>' },
+    'pagePartners.philosophyText': { en: 'We do not claim certifications we do not hold. Instead, we build deep partnerships with organizations that bring world-class expertise, global reach, and certified excellence to every project. Our partners are not just suppliers - they are the foundation of our engineering capability.', tr: 'Sahip olmadığımız sertifikaları iddia etmiyoruz. Bunun yerine, her projeye dünya standartlarında uzmanlık, küresel erişim ve sertifikalı mükemmellik getiren kuruluşlarla derin ortaklıklar kuruyoruz. Ortaklarımız sadece tedarikçi değil - mühendislik yeteneğimizin temelidir.' },
+    'pagePartners.ctaHeading': { en: 'Partner With <em class="text-accent">Zametron</em>', tr: '<em class="text-accent">Zametron</em> ile Ortak Olun' },
+    'pagePartners.ctaSub': { en: 'Interested in collaborating? We are always looking for technology partnerships that enhance our engineering capability and bring more value to our clients.', tr: 'İşbirliği yapmak ister misiniz? Mühendislik yeteneğimizi geliştiren ve müşterilerimize daha fazla değer katan teknoloji ortaklıkları için her zaman açığız.' },
+
+    /* ---- Brochures Page ---- */
+    'pageBrochures.heading': { en: 'Download <em class="text-accent">Resources</em>', tr: '<em class="text-accent">Kaynakları</em> İndirin' },
+    'pageBrochures.sub': { en: 'Detailed information about our capabilities, technology solutions, and partnership infrastructure. Available in English and Turkish.', tr: 'Yeteneklerimiz, teknoloji çözümlerimiz ve ortaklık altyapımız hakkında detaylı bilgiler. İngilizce ve Türkçe olarak mevcuttur.' },
+    'pageBrochures.b1Label': { en: 'Maritime Connectivity', tr: 'Deniz Bağlantısı' },
+    'pageBrochures.b1Title': { en: 'Next Generation <em class="text-accent">Maritime Internet</em>', tr: 'Yeni Nesil <em class="text-accent">Deniz İnterneti</em>' },
+    'pageBrochures.b1Text': { en: 'Powered by MTN Starlink Maritime Solutions. Hybrid connectivity architectures for yachts, commercial vessels, and offshore operations. Covers Starlink kits, network design, installation, and fleet management.', tr: 'MTN Starlink Maritime Çözümleri ile güçlendirilmiştir. Yatlar, ticari gemiler ve offshore operasyonlar için hibrit bağlantı mimarileri. Starlink kitleri, ağ tasarımı, kurulum ve filo yönetimini kapsar.' },
+    'pageBrochures.b1Feature1': { en: 'Starlink Maritime installation & commissioning', tr: 'Starlink Maritime kurulum ve devreye alma' },
+    'pageBrochures.b1Feature2': { en: 'Hybrid connectivity architecture (Starlink + 5G + VSAT)', tr: 'Hibrit bağlantı mimarisi (Starlink + 5G + VSAT)' },
+    'pageBrochures.b1Feature3': { en: 'Network design and marine-grade antenna solutions', tr: 'Ağ tasarımı ve deniz sınıfı anten çözümleri' },
+    'pageBrochures.b1Feature4': { en: 'Fleet connectivity management', tr: 'Filo bağlantı yönetimi' },
+    'pageBrochures.comingLabel': { en: 'Coming Soon', tr: 'Çok Yakında' },
+    'pageBrochures.comingTitle': { en: 'Company <em class="text-accent">Overview</em>', tr: 'Şirket <em class="text-accent">Genel Bakış</em>' },
+    'pageBrochures.comingText': { en: 'A comprehensive look at Zametron\'s full service portfolio, engineering methodology, and global partnership network. Available soon in English and Turkish.', tr: 'Zametron\'un tam hizmet portföyüne, mühendislik metodolojisine ve küresel ortaklık ağına kapsamlı bir bakış. Çok yakında İngilizce ve Türkçe olarak sunulacaktır.' },
+    'pageBrochures.comingBadge': { en: 'Coming Soon', tr: 'Çok Yakında' },
+    'pageBrochures.ctaHeading': { en: 'Need Something <em class="text-accent">Specific</em>?', tr: 'Özel Bir <em class="text-accent">Şeye</em> mi İhtiyacınız Var?' },
+    'pageBrochures.ctaSub': { en: 'If you need detailed technical specifications, project case studies, or custom documentation, our team can prepare materials tailored to your requirements.', tr: 'Detaylı teknik şartnameler, proje vaka çalışmaları veya özel dokümantasyon gerekiyorsa, ekibimiz gereksinimlerinize göre materyaller hazırlayabilir.' },
 
     /* ---- Language Switcher ---- */
     'lang.switch': { en: 'TR', tr: 'EN' },
